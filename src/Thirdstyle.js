@@ -5,17 +5,17 @@ display: flex;
 
 
 `;
-export const Line =  styled.div`
+// export const Line =  styled.div`
 
-position: absolute;
-width: 49vw;
-left: 21vh;
-top: 96vh;
--webkit-transform: rotate(32.81deg);
--ms-transform: rotate(32.81deg);
-transform: rotate(149deg);
-border-top: 1px solid #BBC0DB;
-`;
+// position: absolute;
+// width: 48vw;
+//     left: 27vh;
+//     top: 115vh;
+// -webkit-transform: rotate(32.81deg);
+// -ms-transform: rotate(32.81deg);
+// transform: rotate(149deg);
+// border-top: 1px solid #BBC0DB;
+// `;
 export const Image = styled.div`
 display: inline-flex;
 /* border: 1px solid black; */

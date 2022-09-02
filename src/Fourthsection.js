@@ -1,17 +1,40 @@
 import React from 'react'
-import { MainContainer, Line,Text,Para, Heading,  } from './Fourthstyle'
+import {Table,THead,SolutionHeadings,SolutionP,SolutionH, HalfBorder, BorderText, Column,ColHeading,ColHead1,BigButton,SecTable,} from './Fourthstyle'
+import data from './data.json'
+
 
 function Fourthsection() {
   return (
-    <MainContainer>
-      <Line></Line>
-      <Text>
-        <Para>We have got</Para>
-        <Heading>Solutions to Your Problem</Heading>
-      </Text>   
-      {/* <Image><Img src="./images/sideimg1.png" alt="img"/></Image> */}
+    <>
 
-    </MainContainer>
+      <SolutionHeadings>
+      <SolutionP>We have got</SolutionP>
+      <SolutionH>Solutions to Your Problems</SolutionH>
+      {/* <Image><Img src="./images/Right1.png" alt="img"/></Image> */}
+    </SolutionHeadings>
+        <Table>
+          
+      <THead>What are you looking for?</THead>
+      <HalfBorder></HalfBorder>
+      <BorderText>Question 1 of 2</BorderText>
+      <SecTable>
+      {data.map((data) => {
+        return (
+          <Column key={data.id}>
+            <ColHeading>
+              <ColHead1>{data.body}</ColHead1>
+            </ColHeading>
+            <BigButton><i class="fa-solid fa-chevron-right"></i></BigButton>
+          </Column>
+        );
+      })}
+    </SecTable>
+      
+
+    </Table> 
+     
+
+    </>
   )
 }
 

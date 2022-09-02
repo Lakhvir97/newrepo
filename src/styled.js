@@ -14,8 +14,7 @@ export const Div = styled.nav`
 `;
 
 export const Contain = styled.div`
-max-width: 100%;
-  
+  max-width: 100%; 
   background: url(/images/back-img.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -49,7 +48,7 @@ export const Button = styled.button`
   font-size: 500;
   font-style: normal;
   background-color: #f9c51c;
-  padding: 12px 18px;
+  padding: 1.5vh 1.5vw;
   gap: 10px;
   border: none;
   font-family: "Outfit";

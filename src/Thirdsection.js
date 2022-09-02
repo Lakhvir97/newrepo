@@ -4,7 +4,7 @@ import {Div , Line , Image , Img , Text ,Para ,  Heading ,Content, Text2 , Headi
 function Thirdsection() {
   return (
     <Div>
-        <Line></Line>
+        {/* <Line></Line> */}
         <Image><Img src="./images/secondimg.png" alt="img"/></Image>
         <Text>
         <Para>Let us tell a story of</Para>
