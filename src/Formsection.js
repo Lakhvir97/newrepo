@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Form, Content, Head, Para,Text,Image,Img,Input, Have, Inputs,Pera,Option,Select,Textp,Input1,Send,Div,Add,Or,Div1,Div2,Text1,If,Paraa,Button } from "./FormStyle"
+import {Container,Form, Content, Head, Para,Text,Image,Input, Have, Inputs,Pera,Option,Select,Textp,Input1,Send,Div,Add,Or,Div1,Div2,Text1,If,Paraa,Button,Img2} from "./FormStyle"
 
 function Formsection() {
   return (
@@ -10,9 +10,14 @@ function Formsection() {
         <Text>You have questions. We have answers.</Text>
     </Content>
     <Form>
-        <Image><Img src=""></Img>
+        <Image>
+        {/* <Imag1><Img1 src="/images/mask.png"></Img1> */}
+        <Img2 src="/images/ball.png"></Img2>
+        {/* </Imag1> */}
+        
         <Have>Have a Project?
-We would love to help</Have></Image>
+We would love to help</Have>
+</Image>
         <Input>
         <Pera>I’m interested in....</Pera>
 

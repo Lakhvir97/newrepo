@@ -8,9 +8,9 @@ import Sixthsection from "./Sixthsection";
 import OurBlog from "./OurBlog";
 import Seventhsection from "./Seventhsection";
 import Allimages from "./Allimages";
-
 import "./App.css";
 import Formsection from "./Formsection";
+import Footer from "./Footer";
 
 
 function App() {
@@ -26,7 +26,9 @@ function App() {
       <Seventhsection/>
       <Allimages/>
       <Formsection/>
+      <Footer/>
     </Contain>
+    
   );
 }
 

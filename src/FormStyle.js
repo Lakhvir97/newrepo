@@ -55,24 +55,53 @@ border-radius: 15px;
 `;
 
 export const Image = styled.div`
+background:url("./images/mask.png");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
 border-radius: 15px 0 0 15px;
 background-color: #1D2E88;
 border: 1px solid;
 width: 38vw;
 
 `;
+
+export const Imag1 = styled.div`
+justify-content: space-between;
+display: flex;
+border: 1px solid white;
+`;
+
+export const Img1 = styled.img`
+width: 38vw;
+    height: 75.5vh;
+
+`;
+
+export const Img2 = styled.img`
+display: flex;
+margin: 1.7vw 3vw;
+    width: 13vw;
+
+/* width: 1vw; */
+
+`;
+
 export const Have = styled.p`
-color: white
-;
+color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 4vw;
+width: 33vw;
+    margin: 9vw 4vw;
+/* position:absolute; */
 
 `;
 
-export const Img = styled.img`
-
-`;
 
 export const Input = styled.div`
-padding: 5vw;
+padding:4.5vw 4.5vw 2vw 4.5vw;
 width: 40vw;
 
 
@@ -182,6 +211,7 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
 font-size: 1.1vw;
+
 
 `;
 export const Button = styled.div`
