@@ -1,212 +1,212 @@
 import styled from "styled-components";
 
-export const Mainfooter = styled.div`
-display: flex;
-max-width: 100%;
-border: 1px solid black;
-border-radius: 0px 160px 0px 0px;
+export const MainFooter = styled.div`
 background-color: black;
-
+margin: 19.5vw 0 0 0;
+border-radius: 0 12vw 0 0;
+padding: 4vw 0 2vw 0;
 `;
 
-export const Leftdiv = styled.div`
-
-`;
-
-export const Div1 = styled.div`
+export const LastSection = styled.div`
 display: flex;
-justify-content: space-between;
-padding: 8vh 8vw 0 10vw;
-
-width: calc(100% - 7%);
-
-
 `;
-export const FooterLogo = styled.div`
 
-img{
-    display: flex;
-    width: 10vw;
-    
-}
+export const FooterLeft = styled.div`
+border-right: 1px solid white;
+width: calc(100% - 37.6%);
 `;
+
+export const FooterLogotextdiv = styled.div`
+display: flex;
+align-items: center;
+`;
+
+export const FooterLogodiv = styled.div`
+margin: 0 0 0 10vw;
+`;
+
+export const FooterLogo = styled.img`
+width: clamp(5rem, 11.5vw, 15rem);
+`;
+
+export const FooterText = styled.div`
+margin: 0 0 0 5.2vw;
+`;
+
 export const Text = styled.p`
-display: inline-flex;
-width: 22.333333vw;
-color: white;
-font-family: 'Inter';
-font-style: normal;
-font-size: 0.9vw;
-line-height: 1.2vw;
-opacity: 0.6;
-
+color: #ffffff;
+font-weight: 300;
+font-size: 0.97vw;
+width: calc(100% - 32%);
+line-height: 1.4vw;
 `;
 
-export const Line = styled.div`
-margin: 7vh 0 0 10vw;
-border-bottom: 1px solid white;
-width:  49.89vw;
-opacity: 0.4;
-
-`;
-
-export const ListContent = styled.div`
+export const FooterLeftDiv = styled.div`
 display: flex;
-
-
 `;
-export const Listitem = styled.div`
-display: flex;
-padding: 6vh 4vw 0 10vw;
-color: white;
 
-
-
-`;
-export const Listitem2 = styled.div`
-display: flex;
-padding: 6vh 4vw 0 4vw;
-color: white;
-
-
-`;
-export const Ul = styled.ul`
-display: flex;
-flex-direction: column;
-/* gap: 1.5vw 0; */
+export const AboutUs = styled.div`
 line-height: 3.5vw;
-
+margin: 6vw 0 0 10vw;
+border-right: 1px solid white;
+width: 10.4vw;
 `;
 
-export const Li = styled.li`
-list-style-type: none;
-font-family: 'Inter';
-font-style: normal;
+export const Au = styled.h5`
+color: #ffffff;
+font-size: 1.11vw;
 font-weight: 600;
-font-size: 1vw;
-
 `;
 
-export const Line2 = styled.div`
-border-right: 1px solid lightgray ;
-height: 23.7vw;
-margin: 6vh 0 0 2vw;
-opacity: 0.4;
-`;
-export const Lis = styled.div`
-border: 2px solid #F9C51C;;
+export const AboutDrop = styled.p`
+color: #ffffff;
+font-size: 1.11vw;
+font-weight: 600;
 `;
 
+export const General = styled.div`
+line-height: 3.3vw;
+margin: 6vw 0 0 3.5vw;
+border-right: 1px solid white;
+width: 13vw;
+`;
 
-export const Listitem3 = styled.div`
+export const Gn = styled.h5`
+color: #ffffff;
+font-size: 1.11vw;
+font-weight: 600;
+`;
+
+export const BlankDiv = styled.div`
+border-bottom: 0.3vw solid #f9c51c;
+width: 9.15vw;
+margin: 0.4vw 0 0 0;
+`;
+
+export const Drop = styled.div`
+line-height: 2.8vw;
+margin: 0.8vw 0 0 0;
+`;
+
+export const GeneralDrop = styled.p`
+color: #ffffff;
+font-size: 0.95vw;
+`;
+
+export const Cont = styled.div`
+margin: 6vw 0 0 3.5vw;
+`;
+
+export const Co = styled.h5`
+line-height: 3.3vw;
+color: #ffffff;
+font-size: 1.11vw;
+font-weight: 600;
+`;
+
+export const EmptyDiv = styled.div`
+border-bottom: 0.3vw solid #f9c51c;
+width: 9.15vw;
+margin: 0.4vw 0 0 0;
+`;
+
+export const CoDrop = styled.div`
+margin: 1.5vw 0 0 0;
+`;
+
+export const ContactUsDrop = styled.p`
+color: #ffffff;
+font-size: 0.95vw;
+font-weight: 300;
+`;
+export const ContDiv = styled.div`
+margin: 2vw 0 0 0;
+`;
+
+export const RightFooter = styled.div``;
+
+export const Iconss = styled.div`
+margin: 0.5vw 0 0 5vw;
+`;
+
+export const FollowUsR = styled.p`
+color: #ffffff;
+font-size: 1.11vw;
+font-weight: 600;
+`;
+
+export const FooterIcon = styled.div`
+margin: 2.5vw 0 0 0;
 display: flex;
-margin: 4vw 0 0 3vw;
-color: white;
-`;
-export const Lines = styled.div`
-width: 7vw;
-border: 2px solid #F9C51C;
+gap: 1.4vw;
 `;
 
-export const Address = styled.div`
-width: 15.7vw;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 0.9vw;
-opacity: 0.5;
-`;
-
-export const Lic = styled.p`
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 1vw;
-
-`;
-
-export const Ull = styled.ul`
-display: flex;
-flex-direction: column;
-
-`;
-export const LastDiv = styled.div`
-color:white;
-padding: 6vh 4vw 0 4vw;
-
-
-`;
-export const AdddressIndia = styled.div`
-margin-top: 1vw;
-color: white;
-font-family: 'Inter';
-font-style: normal;
-font-size: 0.9vw;
-line-height: 1.2vw;
-opacity: 0.6;
-`;
-export const AddressUsa = styled.div`
-color: white;
-font-family: 'Inter';
-font-style: normal;
-font-size: 0.9vw;
-line-height: 1.2vw;
-opacity: 0.6;
-margin-top: 1vw;
-`;
-export const ContactUs = styled.div`
-font-weight: 600;
-    font-size: 1vw;
-    margin: 1vw 0 1vw 0;
-
-`;
-
-
-export const AddressP = styled.p``;
-
-export const LineDiv = styled.div`
-border-right: 1px solid lightgrey;
-opacity: 0.4;
-margin: 3vw 0vw 0 4vw;
-`;
-export const RightWrapper = styled.div`
-border: 1px solid white;
-padding: 8vh 0vw 0 5vw;
-
-`;
-export const RightTop = styled.div`
-`;
-
-export const FollowUS = styled.div`
-color: white;
-  font-size: 1vw;
-  font-weight: 300;
-`;
-export const Icons = styled.div``;
-export const IconsImg = styled.img`
- 
-`;
-
-export const RightBottom = styled.div`
-
+export const Icons = styled.img`
+width: clamp(0.5rem, 2.3vw, 20rem);
 `;
 
 export const Sub = styled.div`
-
+margin: 6vw 0 0 5vw;
 `;
 
-export const Search = styled.div`
-
-
-`;
-export const Email = styled.img`
-  
-`;
-
-export const Input = styled.input`
- 
+export const Subs = styled.h3`
+color: #ffffff;
+font-size: 2.22vw;
+font-weight: 700;
+width: calc(100% - 20%);
 `;
 
-export const Btn = styled.button`
- 
+export const InputDiv = styled.div`
+background: #ffffff;
+box-shadow: 0px 0px 25.3647px rgba(0, 0, 0, 0.06);
+padding: 0.7vw 0.6vw 0.7vw 1.2vw;
+width: calc(100% - 39%);
+margin: 2vw 0 0 5vw;
+display: flex;
+align-items: center;
+`;
+
+export const EmailLogo = styled.img`
+width: clamp(0.5rem, 1.25vw, 20rem);
+`;
+
+export const Email = styled.input`
+border: none;
+padding: 0 0.5vw 0 0.5vw;
+font-weight: 300;
+opacity: 0.9;
+width: clamp(0.5rem, 12.6vw, 20rem);
+font-size: clamp(0.5rem, 0.9vw, 10rem);
+`;
+
+export const Subscribe = styled.button`
+background: #f9c51c;
+color: #1d1d1d;
+font-size: clamp(0.5rem, 0.9vw, 10rem);
+font-weight: 700;
+border: none;
+padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+width: clamp(0.5rem, 6vw, 20rem);
+`;
+
+export const Lastbar = styled.div`
+background: #ffffff;
+display: flex;
+justify-content: space-between;
+padding: 1.2vw 10vw;
+margin: 3vw 0 0 0;
+`;
+
+export const LeftDiv = styled.div`
+display: flex;
+gap: 4vw;
+`;
+
+export const Listt = styled.p`
+font-size: 0.8vw;
+font-weight: 500;
+`;
+
+export const RightDiv = styled.div`
+display: flex;
 `;

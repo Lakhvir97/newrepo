@@ -6,63 +6,65 @@ import {
   ImgLeft,
   SideImg,
   Content,
-  Pera4,
-  Head,
-  Span4,
-  Pera5,
-  ArrowImg,
+  Head1,
+  Head2,
+  SpanText,
+  Textthird,
+  ArrowIcon,
   LeftArrow,
   RightArrow,
-  Div,
-  Profile,
-  // Cot,
-  Child,
+  LongText,
+  ImagesCard,
+  Contentdiv,
   First,
   Girl,
   Second,
-  Jane,
+  Janediv,
   JaneP,
-  JanePost,
+  Janepara,
   ImgStar,
   Star,
   Null,
-  Child2,
-  Des,
-} from "./SixthStyle";
+  Contentdiv2,
+  ContextLong,
+} from "./Testimonalstyle";
 
-function Sixthsection() {
+const Testimonalsection = () => {
   return (
+
     <Testimonial>
       <ImgLeft>
         <SideImg src="./images/sliderSideImg.png" alt="sideImg" />
       </ImgLeft>
-      <Content>
-        <Pera4>See our success in</Pera4>
-        <Head>Testimonials</Head>
 
-        <Span4>We Are The Best, And Our Customers Say It.</Span4>
-        <Div>
-          <Pera5>
+      <Content>
+        <Head1>See our success in</Head1>
+        <Head2>Testimonials</Head2>
+
+        <SpanText>We Are The Best, And Our Customers Say It.</SpanText>
+
+        <LongText>
+          <Textthird>
             We've never been ones to brag, but we can't help but share some of
             the feedback we've gotten from our clients. Take a look at what they
             have to say about us:
-          </Pera5>
+          </Textthird>
 
-          <ArrowImg>
+          <ArrowIcon>
             <LeftArrow src="./images/leftarrow.png" alt="left" />
             <RightArrow src="./images/rightarrow.png" alt="right" />
-          </ArrowImg>
-        </Div>
-        <Profile>
-          {/* <Cot src="./images/comas.png" alt="comas" /> */}
-          <Child>
+          </ArrowIcon>
+        </LongText>
+
+        <ImagesCard>
+          <Contentdiv>
             <First>
               <Girl src="./images/profile.png" alt="profile" />
             </First>
             <Second>
-              <Jane>
+              <Janediv>
                 <JaneP>Jane Cooper</JaneP>
-                <JanePost>Manager at Google</JanePost>
+                <Janepara>Manager at Google</Janepara>
                 <ImgStar>
                   <Star src="./images/fillstar.png" alt="fill" />
                   <Star src="./images/fillstar.png" alt="fill" />
@@ -70,20 +72,20 @@ function Sixthsection() {
                   <Star src="./images/fillstar.png" alt="fill" />
                   <Null src="./images/nullstar.png" alt="null" />
                 </ImgStar>
-              </Jane>
+              </Janediv>
             </Second>
-          </Child>
-          <Child2>
-            <Des>
+          </Contentdiv>
+          <Contentdiv2>
+            <ContextLong>
               "Thanks guys, keep up the good work! I wish I would have thought
               of it first. It's incredible. I don't always clop, but when I do,
               it's because of Wits Innovation Lab."
-            </Des>
-          </Child2>
-        </Profile>
+            </ContextLong>
+          </Contentdiv2>
+        </ImagesCard>
       </Content>
     </Testimonial>
   );
 }
 
-export default Sixthsection;
+export default Testimonalsection;

@@ -1,7 +1,5 @@
-
-
 import React from "react";
-import { Div, Logo, List, Ul, Li, Button } from "./styled";
+import { Div, Logo, List, Ul, Li, Button,Services } from "./styled";
 
 function Header() {
   return (
@@ -9,21 +7,16 @@ function Header() {
       <Logo>
         <img src="/images/witslogo.png" alt="logo"></img>
       </Logo>
-      {/* <div className="menu-icon">
-          <i class="fa-solid fa-bars"></i>
-        </div> */}
       <List>
         <Ul>
-          <Li>
-            About Us<i class="fa-solid fa-angle-down"></i>
-          </Li>
-
+    <Li>
+            About Us<i class="fa-solid fa-angle-down"></i></Li>
+        
           <Li>Industry</Li>
+          <Services>
+          Services<i class="fa-solid fa-angle-down"></i>
 
-          <Li>
-            Services<i class="fa-solid fa-angle-down"></i>
-          </Li>
-
+          </Services>
           <Li>Career</Li>
         </Ul>
       </List>

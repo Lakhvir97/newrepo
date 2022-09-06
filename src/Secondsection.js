@@ -1,9 +1,10 @@
 import React from "react";
-import { MainContainer, Left , Heading ,Pera , Span , Image , Img ,Button ,Btn , Btns , Icons ,Para , Line , Icon  ,Li} from "./secondstyle";
+import { MainContainer, Left , Heading ,Pera , Span , Image , Img ,Button ,Btn , Btns , Icons ,Para , Line , Icon  ,Li,Imag} from "./secondstyle";
 // import { Div } from "./styled";
 
 function Secondsection() {
   return (
+    <Imag>
     <MainContainer> 
     <Left>
       <Heading>
@@ -29,10 +30,10 @@ function Secondsection() {
       
     </Left>
     
-    <Image><Img src="./images/group.png" alt="img"/></Image>
+    
     
 
-    </MainContainer>
+    </MainContainer><Image><Img src="./images/group.png" alt="img"/></Image></Imag>
 
 
   );

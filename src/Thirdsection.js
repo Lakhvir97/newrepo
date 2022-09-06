@@ -1,10 +1,9 @@
 import React from 'react'
-import {Div , Line , Image , Img , Text ,Para ,  Heading ,Content, Text2 , Heading1, Para2, BlueLine, RatingSection, Text3, Paraa, Code,First, Text4, Paraa1, Code1, Second,Last, Paraa2, Code2} from "./Thirdstyle"
+import {Div , Image , Img , Text ,Para ,  Heading ,Content, Text2 , Heading1, Para2, BlueLine, RatingSection, Text3, Paraa, Code,First, Text4, Paraa1, Code1, Second,Last, Paraa2, Code2} from "./Thirdstyle"
 
 function Thirdsection() {
   return (
     <Div>
-        {/* <Line></Line> */}
         <Image><Img src="./images/secondimg.png" alt="img"/></Image>
         <Text>
         <Para>Let us tell a story of</Para>
@@ -34,7 +33,6 @@ function Thirdsection() {
                         </Paraa2>
                         <Code2> Completed Projects</Code2>
                     </Last>
-                    {/* <Third></Third> */}
                   </RatingSection>
         </Content>
     </Div>

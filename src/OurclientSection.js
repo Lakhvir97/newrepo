@@ -1,8 +1,8 @@
 import React from 'react'
-import {ClientDiv, ClientPeraHead,ClientHeading,BorderDiv,SmallHeading,NextPera,FirstImgs,
+import {OurClientDiv, ClientHeading1,ClientHeading2,Borderline,Heading3,ParaText2,FirstImagesdiv,
     HerbalLife,
-    ImgDiv,
-    SecondImgs,
+    ImagesDiv,
+    SecondImagesdiv,
     Earn,
     Trepp,
     Farms,
@@ -11,37 +11,42 @@ import {ClientDiv, ClientPeraHead,ClientHeading,BorderDiv,SmallHeading,NextPera,
     Hermes,
     Designwork,
     Moonverse,
-    Payu,} from './FifthStyle'
-function FifthSection() {
+    Payu,} from './Ourclientstyle'
+function OurclientSection() {
   return (
-    <ClientDiv>
-      <ClientPeraHead>See who's winning with us</ClientPeraHead>
-      <ClientHeading>Our Clients</ClientHeading>
-      <BorderDiv></BorderDiv>
-      <SmallHeading>
+    <OurClientDiv>
+
+      <ClientHeading1>See who's winning with us</ClientHeading1>
+      <ClientHeading2>Our Clients</ClientHeading2>
+
+      <Borderline></Borderline>
+
+      <Heading3>
         These powerhouses are already winning business with us.
-        <NextPera>
+        <ParaText2>
           We love what we do, and we hope you'll let us help you too.
-        </NextPera>
-      </SmallHeading>
-      <ImgDiv>
-      <FirstImgs>
+        </ParaText2>
+      </Heading3>
+
+      <ImagesDiv>
+      <FirstImagesdiv>
         <HerbalLife src="./images/nutrition.png" alt="nutri" />
         <Trepp src="./images/trepp.png" alt="nutri" />
         <Farms src="./images/farms.png" alt="nutri" />
         <Affinidi src="./images/affinidi.png" alt="nutri" />
         <Bcg src="./images/bcg.png" alt="nutri" />
-      </FirstImgs>
-      <SecondImgs>
+      </FirstImagesdiv>
+
+      <SecondImagesdiv>
         <Earn src="./images/earn.png" alt="nutri" />
         <Hermes src="./images/hermes.png" alt="nutri" />
         <Designwork src="./images/designwork.png" alt="nutri" />
         <Moonverse src="./images/moonverse.png" alt="nutri" />
         <Payu src="./images/payu.png" alt="nutri" />
-      </SecondImgs>
-    </ImgDiv>
-    </ClientDiv>
+      </SecondImagesdiv>
+    </ImagesDiv>
+    </OurClientDiv>
   )
 }
 
-export default FifthSection
+export default OurclientSection;

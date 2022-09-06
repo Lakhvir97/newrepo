@@ -4,16 +4,16 @@ import {Container,Form, Content, Head, Para,Text,Image,Input, Have, Inputs,Pera,
 function Formsection() {
   return (
    <Container>
-    <Content>
+    <Content> 
         <Head>Got an idea?</Head>
         <Para>Contact Us</Para>
         <Text>You have questions. We have answers.</Text>
     </Content>
     <Form>
         <Image>
-        {/* <Imag1><Img1 src="/images/mask.png"></Img1> */}
+
         <Img2 src="/images/ball.png"></Img2>
-        {/* </Imag1> */}
+       
         
         <Have>Have a Project?
 We would love to help</Have>
@@ -23,9 +23,19 @@ We would love to help</Have>
 
 
         <Inputs>
+
     
         <Select value="services">
-          <Option for="services"><Textp>All Services</Textp></Option>
+          <Option for="services">
+            <Textp>All Services</Textp>
+            
+
+          </Option>
+          <Option for="services">
+            <Textp>All Services</Textp>
+            
+
+          </Option>
         </Select> 
         
         <Input1 type="text" placeholder="Your name"/>

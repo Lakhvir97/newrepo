@@ -2,12 +2,12 @@ import { Contain } from "./styled";
 import Header from "./Header";
 import Secondsection from "./Secondsection";
 import Thirdsection from "./Thirdsection";
-import Fourthsection from "./Fourthsection";
-import FifthSection from "./FifthSection";
-import Sixthsection from "./Sixthsection";
+import SolutionSction from "./SolutionSction";
+import OurclientSection from "./OurclientSection";
+import Testimonalsection from "./Testimonalsection";
 import OurBlog from "./OurBlog";
 import Seventhsection from "./Seventhsection";
-import Allimages from "./Allimages";
+import Imagessection from "./Imagessection";
 import "./App.css";
 import Formsection from "./Formsection";
 import Footer from "./Footer";
@@ -19,12 +19,12 @@ function App() {
       <Header />
       <Secondsection />
       <Thirdsection/>
-      <Fourthsection/>
-      <FifthSection/>
-      <Sixthsection/>
+      <SolutionSction/>
+      <OurclientSection/>
+      <Testimonalsection/>
       <OurBlog/>
       <Seventhsection/>
-      <Allimages/>
+      <Imagessection/>
       <Formsection/>
       <Footer/>
     </Contain>

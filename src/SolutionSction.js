@@ -1,20 +1,19 @@
 import React from 'react'
-import {Table,THead,SolutionHeadings,SolutionP,SolutionH, HalfBorder, BorderText, Column,ColHeading,ColHead1,BigButton,SecTable,} from './Fourthstyle'
+import {Table,Heads,SolutionHeadings,SolutionP,SolutionH, HalfBorder, BorderText, Column,ColHeading,ColHead1,BigButton,SecTable,} from './Solutionstyle'
 import data from './data.json'
 
 
-function Fourthsection() {
+function SolutionSction() {
   return (
     <>
 
       <SolutionHeadings>
       <SolutionP>We have got</SolutionP>
       <SolutionH>Solutions to Your Problems</SolutionH>
-      {/* <Image><Img src="./images/Right1.png" alt="img"/></Image> */}
     </SolutionHeadings>
         <Table>
           
-      <THead>What are you looking for?</THead>
+      <Heads>What are you looking for?</Heads>
       <HalfBorder></HalfBorder>
       <BorderText>Question 1 of 2</BorderText>
       <SecTable>
@@ -38,4 +37,4 @@ function Fourthsection() {
   )
 }
 
-export default Fourthsection
+export default SolutionSction;

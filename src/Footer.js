@@ -1,96 +1,144 @@
-import React from 'react'
-import {Mainfooter,Leftdiv,Div1,FooterLogo,Text,Line,ListContent,Listitem,Ul,Li,Line2,Lis, Listitem2,Lines,LastDiv,AdddressIndia,AddressUsa, 
-  ContactUs,AddressP,LineDiv,RightWrapper,RightTop,FollowUS,Icons,IconsImg,RightBottom,Sub, Search,Email,Input,Btn} from "./Footerstyle"
-
+import React from "react";
+import {
+  LastSection,
+  FooterLeft,
+  FooterLogotextdiv,
+  FooterLogodiv,
+  FooterLogo,
+  FooterText,
+  Text,
+  FooterLeftDiv,
+  AboutUs,
+  Au,
+  AboutDrop,
+  General,
+  Gn,
+  BlankDiv,
+  Drop,
+  GeneralDrop,
+  Cont,
+  Co,
+  EmptyDiv,
+  CoDrop,
+  ContactUsDrop,
+  ContDiv,
+  RightFooter,
+  Iconss,
+  FollowUsR,
+  FooterIcon,
+  Icons,
+  Sub,
+  Subs,
+  InputDiv,
+  EmailLogo,
+  Email,
+  Subscribe,
+  Lastbar,
+  LeftDiv,
+  Listt,
+  RightDiv,
+  MainFooter
+} from "./Footerstyle";
 
 function Footer() {
   return (
-    <Mainfooter>
-        <Leftdiv>
-      <Div1>
-      <FooterLogo>
-        <img src="/images/logo.svg" alt="logo"></img>
-      </FooterLogo>
-      <Text>Wits Innovation Lab is where creativity and innovation flourish. We provide the tools 
-        you need to <br></br>come up with innovative solutions for today's businesses, big or small.</Text>
-        
-      </Div1>
-      <Line></Line>
-      <ListContent>
-<Listitem>
-<Ul>
-          <Li>
-            About Us
-          </Li>
+    <MainFooter>
+      <LastSection>
+        <FooterLeft>
+          
+          <FooterLogotextdiv>
+            <FooterLogodiv>
+              <FooterLogo
+                src="./images/logo.svg"
+                alt="wits-footer-logo"
+              />
+            </FooterLogodiv>
 
-          <Li>Industry</Li>
+            <FooterText>
+              <Text>
+                Wits Innovation Lab is where creativity and innovation flourish.
+                We provide the tools you need to come up with innovative
+                solutions for today's businesses, big or small.
+              </Text>
+            </FooterText>
+          </FooterLogotextdiv>
 
-          <Li>
-            Services
-          </Li>
+          <FooterLeftDiv>
+            <AboutUs>
+              <Au>About Us</Au>
+              <AboutDrop>Services</AboutDrop>
+              <AboutDrop>Case Studies</AboutDrop>
+              <AboutDrop>Our Process</AboutDrop>
+              <AboutDrop>Industries</AboutDrop>
+            </AboutUs>
+            <General>
+              <Gn>General</Gn>
+              <BlankDiv></BlankDiv>
+              <Drop>
+                <GeneralDrop>Company</GeneralDrop>
+                <GeneralDrop>Career</GeneralDrop>
+                <GeneralDrop>Blogs</GeneralDrop>
+                <GeneralDrop>Contact Us</GeneralDrop>
+              </Drop>
+            </General>
+            <Cont>
+              <Co>Contact Us</Co>
+              <EmptyDiv></EmptyDiv>
+              <CoDrop>
+                <ContactUsDrop>SCO 40-41 D, 3rd floor,</ContactUsDrop>
+                <ContactUsDrop>City Heart, Kharar, Punjab-140301</ContactUsDrop>
+                <ContDiv>
+                  <ContactUsDrop>Unit 37 Tileyard Road, N7 9AH</ContactUsDrop>
+                  <ContactUsDrop>California, United States</ContactUsDrop>
+                </ContDiv>
+              </CoDrop>
+            </Cont>
+          </FooterLeftDiv>
+        </FooterLeft>
 
-          <Li>Case Studies</Li>
-          <Li>Our Process</Li>
-          <Li>Industries</Li>
-        </Ul>
-</Listitem>
-<Line2></Line2>
-<Listitem2>
-<Ul>
-          <Li>
-          General
-          </Li>
+        <RightFooter>
+          <Iconss>
+            <FollowUsR>Follow Us</FollowUsR>
+            <FooterIcon>
+              <Icons src="./images/vector.svg" alt="linkedin" />
+              <Icons src="./images/fb.svg" alt="fb" />
+              <Icons src="./images/twitter.svg" alt="twitter" />
+              <Icons src="./images/youtube.svg" alt="youtube" />
+            </FooterIcon>
+          </Iconss>
 
-          <Lis></Lis>
+          <Sub>
+            <Subs>Subscribe to Our Newsletter</Subs>
+          </Sub>
 
-          <Li>
-            Company
-          </Li>
+          <InputDiv>
+            <EmailLogo src="./images/mail.svg" alt="mail" />
+            <Email type="text" placeholder="Enter Your Email" />
+            <Subscribe>Subscribe</Subscribe>
+          </InputDiv>
+        </RightFooter>
 
-          <Li>Career</Li>
-          <Li>Blogs</Li>
-          <Li>Contact Us</Li>
-        </Ul>
-</Listitem2>
-<Line2></Line2>
-<LastDiv>
-            <ContactUs>Contact Us</ContactUs>
-            <Lines></Lines>
-            <AdddressIndia>
-              SCO 40-41 D, 3rd floor,
-              <AddressP> City Heart, Kharar, Punjab-140301</AddressP>
-            </AdddressIndia>
-            <AddressUsa>
-              Unit 37 Tileyard Road, N7 9AH <p> California, United States</p>
-            </AddressUsa>
-          </LastDiv>
-      </ListContent>
+      </LastSection>
+
       
-      </Leftdiv>
-      
-      <LineDiv></LineDiv>
-      <RightWrapper>
-        <RightTop>
-          <FollowUS>Follow US</FollowUS>
-          <Icons>
-            <IconsImg src="../images/linkedin.svg" />
-            <IconsImg src="../images/fb.svg" />
-            <IconsImg src="../images/twitter.svg" />
-            <IconsImg src="../images/youtube.svg" />
-          </Icons>
-        </RightTop>
+      <Lastbar>
 
-        <RightBottom>
-          <Sub>Subscribe to Our Newsletter</Sub>
-          <Search>
-            <Email src="../images/email.svg" />
-            <Input type="text" placeholder="Enteryour Email" />
-            <Btn value="Submit">Subscribe</Btn>
-          </Search>
-        </RightBottom>
-      </RightWrapper>
-    </Mainfooter>
-  )
+        <LeftDiv>
+          <Listt>Terms & Conditions</Listt>
+          <Listt>Privacy Policy</Listt>
+          <Listt>Legal</Listt>
+        </LeftDiv>
+
+
+        <RightDiv>
+          <Listt>
+            Copyright © 2020. witsinnovationlab. All rights reserved.
+          </Listt>
+        </RightDiv>
+
+      </Lastbar>
+    </MainFooter>
+  );
 }
 
-export default Footer
+export default Footer;
